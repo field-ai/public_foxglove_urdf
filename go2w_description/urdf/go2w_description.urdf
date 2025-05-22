@@ -1186,7 +1186,7 @@ Stephen Brawner (brawner@gmail.com)
     <child
       link="RR_calf" />
     <axis
-      xyz="0 1 0" />
+      xyz="1 0 0" />
     <limit
       lower="-2.7227"
       upper="-0.83776"
