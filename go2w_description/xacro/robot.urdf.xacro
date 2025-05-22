@@ -21,7 +21,6 @@
       xyz="0 0 0" />
   </joint>
 
-  <xacro:include filename="$(find go2w_description)/urdf/go2w_description.urdf"/>
   <xacro:include filename="package://go2w_description/urdf/go2w_description.urdf" />
 
 </robot>
