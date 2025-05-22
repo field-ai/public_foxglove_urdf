@@ -247,7 +247,7 @@ Stephen Brawner (brawner@gmail.com)
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="-1.5707963267948966 -1.5707963267948966 -1.5707963267948966" />
+        rpy="-1.5707963267948966 0 0" />
       <geometry>
         <mesh
           filename="package://go2w_description/dae/calf.stl" />
@@ -550,7 +550,7 @@ Stephen Brawner (brawner@gmail.com)
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="-1.5707963267948966 -1.5707963267948966 -1.5707963267948966" />
+        rpy="-1.5707963267948966 0 0" />
       <geometry>
         <mesh
           filename="package://go2w_description/dae/calf_mirror.stl" />
@@ -853,7 +853,7 @@ Stephen Brawner (brawner@gmail.com)
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="-1.5707963267948966 -1.5707963267948966 -1.5707963267948966" />
+        rpy="-1.5707963267948966 0 0" />
       <geometry>
         <mesh
           filename="package://go2w_description/dae/calf.stl" />
@@ -1157,7 +1157,7 @@ Stephen Brawner (brawner@gmail.com)
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="-1.5707963267948966 -1.5707963267948966 -1.5707963267948966" />
+        rpy="-1.5707963267948966 0 0" />
       <geometry>
         <mesh
           filename="package://go2w_description/dae/calf_mirror.stl" />
