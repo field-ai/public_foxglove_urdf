@@ -1157,7 +1157,7 @@ Stephen Brawner (brawner@gmail.com)
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="1.5707963267948966 0 0" />
+        rpy="0 0 1.5707963267948966" />
       <geometry>
         <mesh
           filename="package://go2w_description/dae/calf_mirror.stl" />
