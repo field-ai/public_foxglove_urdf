@@ -1180,13 +1180,13 @@ Stephen Brawner (brawner@gmail.com)
     type="revolute">
     <origin
       xyz="0 0 -0.213"
-      rpy="0 0 0" />
+      rpy="1.5707963267948966 0 0" />
     <parent
       link="RR_thigh" />
     <child
       link="RR_calf" />
     <axis
-      xyz="0 0 1" />
+      xyz="0 1 0" />
     <limit
       lower="-2.7227"
       upper="-0.83776"
