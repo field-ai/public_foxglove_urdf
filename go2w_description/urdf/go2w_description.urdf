@@ -1143,7 +1143,7 @@ Stephen Brawner (brawner@gmail.com)
     <inertial>
       <origin
         xyz="0.00548 0.000975 -0.115"
-        rpy="0 0 0" />
+        rpy="0 0 1.5707963267948966" />
       <mass
         value="0.154" />
       <inertia
@@ -1180,7 +1180,7 @@ Stephen Brawner (brawner@gmail.com)
     type="revolute">
     <origin
       xyz="0 0 -0.213"
-      rpy="0 0 1.5707963267948966" />
+      rpy="0 0 0" />
     <parent
       link="RR_thigh" />
     <child
