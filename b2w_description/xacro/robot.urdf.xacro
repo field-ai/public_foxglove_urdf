@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot
+  name="go2w"
+  xmlns:xacro="http://www.ros.org/wiki/xacro"
+  xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
+  xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
+  xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface" >
+
+  <link name="base_link"/>
+  <joint
+    name="base_link_joint"
+    type="fixed" dont_collapse="true">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="base" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+
+  <xacro:include filename="package://b2w_description/urdf/b2w_description.urdf" />
+</robot>
