@@ -4,7 +4,7 @@
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot name="M20">
     <mujoco>
-        <compiler meshdir="../meshes/" balanceinertia="false" discardvisual="false" fusestatic="false"/>
+        <compiler meshdir="package://m20_description/meshes/" balanceinertia="false" discardvisual="false" fusestatic="false"/>
     </mujoco>
     <link name="base_link">
         <inertial>
@@ -15,7 +15,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/base_link.STL"/>
+                <mesh filename="package://m20_description/meshes/base_link.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -49,7 +49,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/fl_hipx.STL"/>
+                <mesh filename="package://m20_description/meshes/fl_hipx.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -78,7 +78,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/fl_hipy.STL"/>
+                <mesh filename="package://m20_description/meshes/fl_hipy.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -113,7 +113,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/fl_knee.STL"/>
+                <mesh filename="package://m20_description/meshes/fl_knee.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -148,7 +148,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/fl_wheel.STL"/>
+                <mesh filename="package://m20_description/meshes/fl_wheel.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -177,7 +177,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/fr_hipx.STL"/>
+                <mesh filename="package://m20_description/meshes/fr_hipx.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -206,7 +206,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/fr_hipy.STL"/>
+                <mesh filename="package://m20_description/meshes/fr_hipy.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -241,7 +241,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/fr_knee.STL"/>
+                <mesh filename="package://m20_description/meshes/fr_knee.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -276,7 +276,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/fr_wheel.STL"/>
+                <mesh filename="package://m20_description/meshes/fr_wheel.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -305,7 +305,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/hl_hipx.STL"/>
+                <mesh filename="package://m20_description/meshes/hl_hipx.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -334,7 +334,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/hl_hipy.STL"/>
+                <mesh filename="package://m20_description/meshes/hl_hipy.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -369,7 +369,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/hl_knee.STL"/>
+                <mesh filename="package://m20_description/meshes/hl_knee.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -404,7 +404,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/hl_wheel.STL"/>
+                <mesh filename="package://m20_description/meshes/hl_wheel.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -433,7 +433,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/hr_hipx.STL"/>
+                <mesh filename="package://m20_description/meshes/hr_hipx.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -462,7 +462,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/hr_hipy.STL"/>
+                <mesh filename="package://m20_description/meshes/hr_hipy.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -497,7 +497,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/hr_knee.STL"/>
+                <mesh filename="package://m20_description/meshes/hr_knee.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
@@ -532,7 +532,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh filename="../meshes/hr_wheel.STL"/>
+                <mesh filename="package://m20_description/meshes/hr_wheel.STL"/>
             </geometry>
             <material name="">
                 <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>

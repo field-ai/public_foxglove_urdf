@@ -4,7 +4,7 @@
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot name="X30">
     <mujoco>
-        <compiler meshdir="../meshes/" balanceinertia="false" discardvisual="false" fusestatic="false"/>
+        <compiler meshdir="package://x30_description/meshes/" balanceinertia="false" discardvisual="false" fusestatic="false"/>
     </mujoco>
   <!-- <link name="base_link">
     <inertial>
@@ -21,7 +21,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="../meshes/torso.STL"/>
+        <mesh filename="package://x30_description/meshes/torso.STL"/>
       </geometry>
     </visual>
     <collision>
@@ -44,7 +44,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="../meshes/hip.STL"/>
+        <mesh filename="package://x30_description/meshes/hip.STL"/>
       </geometry>
     </visual>
   </link>
@@ -66,7 +66,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="../meshes/thigh.STL"/>
+        <mesh filename="package://x30_description/meshes/thigh.STL"/>
       </geometry>
     </visual>
     <collision>
@@ -94,7 +94,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="../meshes/shank.STL"/>
+        <mesh filename="package://x30_description/meshes/shank.STL"/>
       </geometry>
     </visual>
     <collision>
@@ -152,7 +152,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="../meshes/hip.STL" scale="1 -1 1"/>
+        <mesh filename="package://x30_description/meshes/hip.STL" scale="1 -1 1"/>
       </geometry>
     </visual>
   </link>
@@ -174,7 +174,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="../meshes/thigh.STL" scale="1 -1 1"/>
+        <mesh filename="package://x30_description/meshes/thigh.STL" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
@@ -202,7 +202,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="../meshes/shank.STL"/>
+        <mesh filename="package://x30_description/meshes/shank.STL"/>
       </geometry>
     </visual>
     <collision>
@@ -261,7 +261,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="../meshes/hip.STL" scale="-1 1 1"/>
+        <mesh filename="package://x30_description/meshes/hip.STL" scale="-1 1 1"/>
       </geometry>
     </visual>
   </link>
@@ -283,7 +283,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="../meshes/thigh.STL"/>
+        <mesh filename="package://x30_description/meshes/thigh.STL"/>
       </geometry>
     </visual>
     <collision>
@@ -311,7 +311,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="../meshes/shank.STL"/>
+        <mesh filename="package://x30_description/meshes/shank.STL"/>
       </geometry>
     </visual>
     <collision>
@@ -369,7 +369,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="../meshes/hip.STL" scale="-1 -1 1"/>
+        <mesh filename="package://x30_description/meshes/hip.STL" scale="-1 -1 1"/>
       </geometry>
     </visual>
   </link>
@@ -391,7 +391,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="../meshes/thigh.STL" scale="1 -1 1"/>
+        <mesh filename="package://x30_description/meshes/thigh.STL" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
@@ -419,7 +419,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="../meshes/shank.STL" />
+        <mesh filename="package://x30_description/meshes/shank.STL" />
       </geometry>
     </visual>
     <collision>
