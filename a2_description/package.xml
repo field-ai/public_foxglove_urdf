@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>a2_description</name>
+  <version>0.0.0</version>
+  <description>The a2_description package</description>
+
+  <maintainer email="harmish@fieldai.com">Harmish Khambhaita</maintainer>
+  <license>FieldAI Inc.</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+  <export>
+  </export>
+</package>
